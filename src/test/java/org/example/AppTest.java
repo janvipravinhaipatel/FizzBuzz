@@ -41,10 +41,7 @@ public class AppTest
         App.FizzBuzz fizzBuzz = new App.FizzBuzz();
         assertEquals("Fizz", fizzBuzz.play(6));
         assertEquals("Buzz", fizzBuzz.play(10));
-
         assertEquals("FizzBuzz", fizzBuzz.play(15));
-
-
 
     }
     }
