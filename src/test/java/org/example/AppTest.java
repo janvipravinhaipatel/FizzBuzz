@@ -40,6 +40,8 @@ public class AppTest
     public void testFizzForNumberThree() {
         App.FizzBuzz fizzBuzz = new App.FizzBuzz();
         assertEquals("Fizz", fizzBuzz.play(6));
+        assertEquals("Buzz", fizzBuzz.play(10));
+
 
         }
     }
